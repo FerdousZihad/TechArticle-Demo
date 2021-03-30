@@ -275,8 +275,29 @@ nav{
 #main_sidebar li:last-child{
 	border-bottom:none;
 }
-.stick {
+
+.social{
+	
+	
+	display:inline-block;
+	padding:5px;
+	list-style-type:none;
 	position:fixed;
-	top:0px;
-	z-index:999999999999;
+	top:25%;
+	left:0%;
+	z-index:101;
+	background:#eeeeee;
+	border-radius:0 25px 25px 0;
 }
+.social li{
+	
+	
+	
+}
+.social li img{
+	padding:5px 5px;
+	width:32px;
+	height:32px;
+	
+}
+
