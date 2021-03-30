@@ -83,11 +83,12 @@
 	
 		<!---------- menu done----------------------------->
 	
-	
+	<div class="full_wrap slider_bg">
+		<div class="wrap wrap_slider"> 
 		
 		<section>
 		
-			<div id="slider_wrapper">
+			<div id="slide">
 				<div class="slider-wrapper theme-default">
 					<div id="slider" class="nivoSlider">
 						<img src="img/s1.jpg"  />
@@ -98,16 +99,17 @@
 				
 						<img src="img/s4.jpg"   />
 				
-            </div>
+					</div>
 				
-        </div>
+				</div>
 
 			
 			</div>
 		
 		</section>
 		
-
+		</div>
+	</div>
 	
 	<div class="full_wrap content_bg">
 		<div class="wrap"> 
@@ -274,20 +276,7 @@
     });
     </script>
 	
-	<script type="text/javascript">
-			$(document).ready(function() {
-				var s = $("#sticker");
-				var pos = s.position();					   
-				$(window).scroll(function() {
-					var windowpos = $(window).scrollTop();
-					if (windowpos >= pos.top) {
-						s.addClass("stick");
-					} else {
-						s.removeClass("stick");	
-					}
-				});
-			});
-	</script> 
+	
 	
 	
 	
