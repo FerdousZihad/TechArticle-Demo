@@ -127,13 +127,10 @@ nav{
 /* -------- */
 
 .wrap_slider{
-	overflow:hidden;
 	width:100%;
 	
 }
-#slide{
-	width:100%;
-}
+
 
 .content_bg{
 	background:#eeeeee;
