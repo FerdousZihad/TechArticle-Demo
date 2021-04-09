@@ -35,8 +35,33 @@ header #head h2{
 	color:#fff;
 	font-family: 'Kelly Slab', cursive;
 	
+	animation-name: light;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+    
+	
 	
 }
+@keyframes light{
+	
+	0%{
+		text-shadow:0 0 0 #fff;
+		
+	}
+	50%{
+		
+		text-shadow:1px 1px 10px pink;
+		
+	}
+	100%{
+		text-shadow:0 0 0 #fff;
+		
+	}
+	
+}
+
+
 header #head p{
 	color:#ffd369;
 	font-family:play;
@@ -130,6 +155,49 @@ nav{
 	width:100%;
 	
 }
+.stitle{
+	
+	text-align:center;
+	font-family:comfortaa;
+	background:#fff;
+	padding:30px 0;
+	border-radius:50px;
+	
+}
+.stitle h1{
+	
+	animation-name: color;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    font-size: 55px;
+    font-weight: lighter;
+}
+@keyframes color{
+	
+	0%{
+		color:#393e46;
+		
+	}
+	50%{
+		color:#ddd;
+		
+	}
+	100%{
+		color:#393e46;
+		
+	}
+	
+}
+
+.stitle h2{
+	
+	color:#393e46;
+	font-size:16px;
+	
+	
+	
+}
+
 
 
 .content_bg{
@@ -235,6 +303,9 @@ nav{
 	
 	font-family:leelawadee;
 }
+#main_article{
+	margin-bottom:25px;
+}
 
 #imgp_wrap{
 	border-bottom:2px solid #ddd;
@@ -260,6 +331,7 @@ nav{
 	float:left;
 	margin-top:0;
 	margin-bottom:0;
+	line-height:150%;
 }
 #main_sidebar{
 	padding-bottom:10px;
