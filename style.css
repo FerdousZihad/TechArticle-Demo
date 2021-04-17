@@ -1,5 +1,9 @@
 *{margin:0 ;padding:0}
-
+@viewport{
+	width:device-width;
+	min-zoom:1;
+	max-zoom:2;
+}
 body{
 	background:#EEEEEE;
 	
@@ -19,7 +23,7 @@ body{
 .head_bg{
 	
 	background:#222831;
-	border-bottom:5px solid #393e46;
+	
 	
 }
 
@@ -67,7 +71,7 @@ header #head p{
 	font-family:play;
 }
 .menu_bg{
-	background:#eeeeee;
+	background:#222831;
 	border-bottom:5px solid #393e46;
 	overflow:visible;
 }
@@ -80,7 +84,7 @@ nav{
 	
 #menu {
 	background:#eeeeee;
-	width:960px;
+	width:100%;
 	margin:0 auto;
 	min-height:38px;
 	
@@ -89,7 +93,7 @@ nav{
 #menu ul{
 	list-style-type:none;
 	background:#eeeeee;
-	min-height:38px;
+	min-height:39px;
 	
 }
 
@@ -147,6 +151,17 @@ nav{
 #menu ul li ul li ul li{
 	width:200px;
 	border-left:1px solid #393e46;
+}
+.selectnav {
+    display: block;
+    height: 39px;
+    width: 100%;
+	font-family:play;
+	font-size:16px;
+	
+}
+.selectnav:hover{
+	background:#ddd;
 }
 
 /* -------- */
