@@ -1,0 +1,207 @@
+
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+  .img{
+	max-width:100%;
+	height:auto;
+}
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+	
+  .wrap{
+	  
+	  width:100%;
+	
+	  
+  }
+  header{
+	  text-align:center;
+	  
+  }
+  .stitle{
+	 width:98%; 
+  }
+  #content{
+	  width:70%;
+	  margin-right:2%;
+	  
+  }
+  #content p{
+	  width:70%;
+  }
+  #imgp_wrap img{
+	  width:25%;
+	  height:25%;
+	  margin-right:2%;
+  }
+  #sidebar{
+	  width:28%;
+  }
+	
+	
+	
+	
+	
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	
+	/* mini device mood css */
+	
+		
+  .wrap{
+	  
+	  width:100%;
+	
+	  
+  }
+  header{
+	  text-align:center;
+	  
+  }
+  .stitle{
+	 width:98%; 
+	 margin-top:10px;
+  }
+  .stitle h1{
+	  font-size:200%;
+  }
+  .social , .menu_bg , .slider_bg{
+	  display:none;
+  }
+  #content{
+	  width:100%;
+	  margin-right:2%;
+	  
+  }
+  #content p{
+	  width:100%;
+  }
+  #imgp_wrap img{
+	  width:100%;
+	  height:100%;
+	 
+  }
+  #sidebar{
+	  width:100%;
+  }
+	
+	
+	
+	
+	
+}
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	
+	/* android device mood css */
+	
+	.wrap{
+	  
+	  width:100%;
+	
+	  
+  }
+  header{
+	  text-align:center;
+	  
+  }
+  .stitle{
+	 width:98%; 
+	 margin-top:10px;
+  }
+  .stitle h1{
+	  font-size:200%;
+  }
+  .slider_bg{
+	  display:block;
+  }
+
+  #content{
+	  width:100%;
+	  margin-right:2%;
+	  
+  }
+  #content p{
+	  width:70%;
+  }
+  #imgp_wrap img{
+	  width:25%;
+	  height:25%;
+	  margin-right:2%;
+	  vertical-align:center;
+  }
+  #sidebar{
+	  width:100%;
+  }
+
+}
+
+
+
+
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	body {
+		
+		
+		
+	
+	}
+	
+}
